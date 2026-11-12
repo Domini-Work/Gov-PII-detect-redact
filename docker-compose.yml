@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  govpii-app:
+    build: .
+    container_name: ps13-govpii-detector
+    ports:
+      - "8000:8000"   # FastAPI Backend
+      - "8501:8501"   # Streamlit UI Dashboard
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
+    restart: unless-stopped
