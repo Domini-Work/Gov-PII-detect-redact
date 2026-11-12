@@ -1,4 +1,4 @@
-# 🛡️ PS13: National Government Document PII Detector & Redaction Portal
+Government Document PII Detector & Redaction Portal
 
 [![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.141-green.svg)](https://fastapi.tiangolo.com/)
@@ -6,7 +6,7 @@
 [![Compliance](https://img.shields.io/badge/Compliance-DPDP%20Act%202023-orange.svg)](https://www.meity.gov.in/)
 [![Tests](https://img.shields.io/badge/Tests-18%20Passed%20(100%25)-brightgreen.svg)](file:///tests)
 
-An enterprise-grade, high-precision Government Document Personally Identifiable Information (PII) Detection, Redaction, and Compliance Audit System specifically engineered for the **Indian Government domain**. 
+An enterprise-grade, high-precision Government Document Personally Identifiable Information (PII) Detection, Redaction, and Compliance Audit System specifically engineered for Indian Government domain. 
 
 The system complies with the **Digital Personal Data Protection (DPDP) Act, 2023** and the **Aadhaar Act, 2016**, featuring cryptographic SHA-256 tamper verification, a Human-in-the-Loop (HITL) review matrix, vector PDF text scrubbing, and interactive side-by-side comparative inspection.
 
